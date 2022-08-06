@@ -1,0 +1,138 @@
+
+
+.loginBox {
+position: relative;
+    margin-top: 2%;
+    /*left: 15%;*/
+    /*transform: translate(-50%, -50%);*/
+    width: 350px;
+    min-height: 200px;
+    background: #ffffff;
+    opacity: .9;
+    border-radius: 10px;
+    padding: 40px;
+    box-sizing: border-box;
+}
+
+.user {
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 20px
+}
+
+h3 {
+    margin: 0;
+    padding: 0 0 20px;
+    color: #dc3545;
+    text-align: center
+}
+
+.loginBox input {
+    width: 100%;
+    margin-bottom: 20px
+}
+
+.loginBox input[type="text"],
+.loginBox input[type="email"],
+.loginBox input[type="password"] {
+    border: none;
+    border-bottom: 2px solid #dc3545;
+    outline: none;
+    height: 40px;
+    color: #dc3545;
+    background: transparent;
+    font-size: 16px;
+    padding-left: 20px;
+    box-sizing: border-box
+}
+
+.loginBox input[type="text"]:hover,
+.loginBox input[type="email"]:hover,
+.loginBox input[type="password"]:hover {
+    color: #dc3545;
+    border: 1px solid #dc3545;
+    box-shadow: 0 0 5px #dc3545
+}
+
+.loginBox input[type="text"]:focus,
+.loginBox input[type="password"]:focus {
+    border-bottom: 2px solid #dc3545
+}
+
+.inputBox {
+    position: relative;
+}
+
+.inputBox span {
+    position: absolute;
+    top: 10px;
+    color: #dc3545
+}
+
+.loginBox input[type="submit"] {
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    background: #dc3545;
+    color: #ffffff;
+    border-radius: 20px;
+    cursor: pointer
+}
+
+.loginBox a#lgn {
+    color: #dc3545;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    display: block
+}
+.loginBox a#lgn1 {
+    color: #dc3545;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a#lgn:hover {
+    color: #59238F
+}
+a#lgn1:hover {
+    color: #59238F !important;
+}
+.loginBox a:hover {
+    color: #59238F
+}
+.loginBox a{
+    cursor: pointer
+
+}
+
+p {
+    color: #0000ff
+}
+.hvr li:hover a{
+    color: #dc3545 !important;
+    transform: scale(0.95);
+
+}
+.hvr a{
+    color: white !important;
+}
+ a#navtitl:hover{
+    color: #dc3545 !important;
+}
+ a#navtitl{
+     color: white !important;
+ }
+.cancel{
+    border: none;
+    outline: none;
+    height: 40px;
+    font-size: 16px;
+    background: #59238F;
+    color: #fff;
+    border-radius: 20px;
+    cursor: pointer
+}

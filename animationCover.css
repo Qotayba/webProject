@@ -1,0 +1,59 @@
+.main{
+
+    width: 100%;
+    min-height: 100vh;
+    background: url(imgs/col1.jpg) no-repeat;
+    display: flex;
+    align-items: flex-start;
+    background-size:cover;
+    background-attachment: fixed;
+    justify-content: center;
+    animation:change 15s infinite ease-in-out;
+    animation-timing-function: linear
+
+}
+section#sec1{
+    padding: 100px 200px;
+}
+@keyframes change {
+    0%{
+        background: url(imgs/col1.jpg) no-repeat;
+        background-size:cover;
+        background-attachment: fixed;
+    }
+    20%{
+        background: url(imgs/col2.jpg) no-repeat;
+        background-size:cover;
+        background-attachment: fixed;
+    }
+    40%{
+        background: url(imgs/col3.jpg) no-repeat;
+        background-size:cover;
+        background-attachment: fixed;
+    }
+    60%{
+        background: url(imgs/col4.jpg) no-repeat;
+        background-size:cover;
+        background-attachment: fixed;
+    }
+    80%{
+        background: url(imgs/col5.jpg) no-repeat;
+        background-size:cover;
+        background-attachment: fixed;
+    }
+    100%{
+        background: url(imgs/col1.jpg) no-repeat;
+        background-size:cover;
+        background-attachment: fixed;
+    }
+
+}
+.main form{
+    width: 50%;
+}
+.main button{
+    width: 25%;
+}
+.main input{
+    width :100%
+}

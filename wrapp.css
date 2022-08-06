@@ -1,0 +1,13 @@
+.wrapper{
+    min-height: 400px;
+    border: 1px solid;
+    display: flex;
+    overflow-x: auto;
+}
+
+.wrapper.cardd{
+    min-width: 80px;
+    min-height: 80px;
+    line-height: 80px;
+
+}
