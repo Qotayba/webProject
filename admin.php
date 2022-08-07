@@ -1,5 +1,5 @@
 <?php
-//session_start();
+
 include "logincheck.php";
 if (!isset($_SESSION['user-is-admin'])){
     header("location: index.php");
@@ -142,7 +142,7 @@ if (isset($_SESSION['this-admin'])){
             <input type="text" class="form-control" id="Product-Name" placeholder="Enter Product Name" required  name="Product-name">
         </div>
 
-        
+
         <div class="mb-3">
             <h3> This Product for</h3>
             <div class="row">
