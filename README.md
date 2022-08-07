@@ -1,2 +1,2 @@
 # webProject
-the database is in folder named datebase>product sql
+the database is in file named datebase>product sql
